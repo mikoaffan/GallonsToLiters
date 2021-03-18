@@ -13,7 +13,7 @@ public class GallonsToLiters
         gallons = in.nextDouble( );
 // 3.785 L = 1 U.S. gal.
         liters = gallons * 3.785;
-// output results
+// hasil output
         System.out.print( liters + " Liter = " );
         System.out.println( gallons + " Galon U.S." );
     }
